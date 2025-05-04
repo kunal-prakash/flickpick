@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <div className="flex items-center font-bold">
-      FlickPick - Movie Recommender
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
